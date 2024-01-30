@@ -1,10 +1,10 @@
-title: 'BitDevs Melbourne'
-tagline: 'Melbourne BitDevs is an in-person community for those interested in discussing and exploring developments in Bitcoin and related protocols.'
+title: 'BitDevs Australia'
+tagline: 'BitDevs is an in-person community for those interested in discussing and exploring developments in Bitcoin and related protocols.'
 
 menu:
   - {name: 'About', url: '/about'}
   # - {name: 'Calendar', url: '/calendar'}
   # - {name: 'Map', url: '/map'}
   - {name: "Next Topics", url: 'https://github.com/MelbourneBitDevs/MelbBitDevs/issues', external: true}
-  - {name: "Github", url: 'https://github.com/MelbourneBitDevs/MelbBitDevs/', external: true}
+  - {name: "Github", url: 'https://github.com/MelbourneBitDevs/meetup/', external: true}
   # - {name: 'Cities', url: '/cities'}

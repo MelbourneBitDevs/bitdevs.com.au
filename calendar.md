@@ -3,7 +3,7 @@ layout: default
 title: Meetings
 ---
 
-BitDevs Melbourne is typically held once a month. See Github.
+BitDevs is typically held once a month. See Github.
 
 <!-- You can subscribe to event announcements via [meetup.com](https://www.meetup.com/Vancouver-Bitcoiners/). -->
 
