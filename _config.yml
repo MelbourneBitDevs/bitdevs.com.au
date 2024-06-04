@@ -10,15 +10,14 @@ sass:
   style: :compressed
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title: "BitDevs Melbourne"
-description: "Melbourne BitDevs is an in-person community for those interested in discussing and exploring developments in Bitcoin and related protocols."
+title: "BitDevs Australia"
+description: "BitDevs is an in-person community for those interested in discussing and exploring developments in Bitcoin and related protocols."
 
 # include new files
-include: 
+include:
   - .well-known
 
 # Leave out some files
-exclude: ['README.md', 'Gemfile', 'Gemfile.lock', '.sass-cache']
+exclude: ["README.md", "Gemfile", "Gemfile.lock", ".sass-cache"]
 
 future: true
-
