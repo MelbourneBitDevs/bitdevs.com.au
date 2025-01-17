@@ -1,5 +1,6 @@
 html {
-  background-image: url(/assets/greenmesh.gif);
+  background: linear-gradient(125deg, #000000, #1a1a1a);
+  min-height: 100vh;
 }
 
 html, body {
@@ -18,6 +19,37 @@ html, body {
 
   @media (max-width: $small-screen) {
     font-size: 12px;
+  }
+}
+
+body {
+  position: relative;
+  background: 
+    repeating-linear-gradient(
+      45deg,
+      rgba(6, 156, 86, 0.1) 0px,
+      rgba(6, 156, 86, 0.1) 2px,
+      transparent 2px,
+      transparent 20px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      rgba(6, 156, 86, 0.1) 0px,
+      rgba(6, 156, 86, 0.1) 2px,
+      transparent 2px,
+      transparent 20px
+    );
+  animation: gradientMove 20s linear infinite;
+  min-height: 100vh;
+  margin: 0;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 200px 200px;  /* Multiple of pattern size (20px) */
   }
 }
 
